@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AngularJS / NodeJS base template</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- LOADING ANGULARJS FROM LOCAL LIBRARY -->
+    <script type="text/javascript" src="lib/angular.js"></script>
+    <!-- <script type="text/javascript" src="lib/angular.min.js"></script> -->
+
+    <!-- LOADING ANGULARJS FROM EXTERNAL CDN -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.js" integrity="sha256-47AQCzX6dqzjicKe4PabaBJtLnWffl34LU9WJUulNog=" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js" integrity="sha256-23hi0Ag650tclABdGCdMNSjxvikytyQ44vYGo9HyOrU=" crossorigin="anonymous"></script> -->
+
+    <!-- 
+        for others components of angular.js library visit 
+        https://cdnjs.com/libraries/angular.js/  
+        to get cdn support 
+    -->
+
+    <!-- ANGULAR LIBRARIES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.min.js.map"></script> -->
+
+    <!-- JS FILES -->
+    <script type="text/javascript" src="./core/app.js"></script>
+
+    <!-- <script type="text/javascript" src="./controllers/*"></script> -->
+    <script type="text/javascript" src="./controllers/app.controller.js"></script>
+    <!-- <script type="text/javascript" src="./directives/*"></script> -->
+    <!-- <script type="text/javascript" src="./filters/*"></script> -->
+    <!-- <script type="text/javascript" src="./services/*"></script> -->
+
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="./styles/app.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="stylesheet" href="./styles/tablet.css">
+    <link rel="stylesheet" href="./styles/desktop.css">
+
+</head>
+
+<body>
+    <!-- defining entry point application -->
+    <div ng-app="myApp">
+
+        <div ng-view></div>
+    </div>
+</body>
+
+</html>

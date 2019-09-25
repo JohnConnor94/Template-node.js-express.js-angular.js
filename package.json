@@ -1,0 +1,42 @@
+{
+  "name": "template_node_angjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "debug": "nodemon server/server.js"
+  },
+  "author": "Ignazio Messina",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "clone": "^2.1.2",
+    "express": "^4.17.1",
+    "jsonpack": "^1.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "nconf": "^0.10.0",
+    "node": "^10.16.3",
+    "sha.js": "^2.4.11"
+  },
+  "devDependencies": {
+    "jshint": "^2.10.2",
+    "nodemon": "^1.19.2"
+  },
+  "optionalDependecies": {
+    "alasql": "^0.5.1",
+    "csv": "^5.1.3",
+    "express-formidable": "^1.2.0",
+    "express-mysql-session": "^2.1.0",
+    "express-session": "^1.16.2",
+    "fast-xml-parser": "^3.12.20",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "request": "^2.88.0",
+    "safe-eval": "^0.4.1",
+    "socket.io": "^1.7.4",
+    "uuid": "^3.3.3",
+    "xlsx-populate": "^1.20.1"
+  }
+}
