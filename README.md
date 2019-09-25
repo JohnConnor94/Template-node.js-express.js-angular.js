@@ -43,3 +43,4 @@ It contains the very basic structure of that kind of file and components of angu
 
 There is a README.template.md file that contains the structure of a **_well organized_** readme. 
 
+In package.json there is a field named optionalDependencies with a set of useful libraries that you would add to your project. Feel free to add'em to you dependencies if you want'em.
